@@ -9,7 +9,7 @@
   </head>
   <body>
     <section class="calculator">
-      <section class="output"></section>
+      <section id="output"></section>
       <section id="container">
         <button class="function" onclick="reset(clear)">AC</button>
         <button class="function" onclick="buildSum('+')">+/-</button>
@@ -30,9 +30,9 @@
         <section class="empty"></section>
         <button onclick="buildSum('0')">0</button>
         <button onclick="buildSum('.')">.</button>
-        <button class="sign" onclick="evaluate()">=</button>
+        <button class="sign" onclick="calculate()">=</button>
       </section>
     </section>
-    <script src="./calc.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>
